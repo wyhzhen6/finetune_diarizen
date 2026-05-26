@@ -1,0 +1,15 @@
+Databases:
+  CustomData:
+    - /home3/yihao/Research/basebend/sim_train/train/se/{uri}.wav
+    - /home3/yihao/Research/basebend/sim_train/val/se/{uri}.wav
+
+Protocols:
+  CustomData:
+    SpeakerDiarization:
+      Finetune:
+        train:
+          uri: /home3/yihao/Research/Code/DiariZen/recipes/diar_ssl/data/custom_finetune/train.txt
+          annotation: /home3/yihao/Research/Code/DiariZen/recipes/diar_ssl/data/custom_finetune/train/rttm
+        development:
+          uri: /home3/yihao/Research/Code/DiariZen/recipes/diar_ssl/data/custom_finetune/val.txt
+          annotation: /home3/yihao/Research/Code/DiariZen/recipes/diar_ssl/data/custom_finetune/val/rttm

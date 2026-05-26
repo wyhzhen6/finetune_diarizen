@@ -1,0 +1,28 @@
+# Pyannote / PyTorch checkpoints and training outputs
+exp/
+exp_custom_finetune/
+exp_wespeaker_finetune/
+
+# Logs and outputs
+*.log
+*.err
+*.out
+*.output
+
+# Audio formats
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# Python/compiled cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
